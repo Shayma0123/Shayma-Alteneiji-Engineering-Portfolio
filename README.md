@@ -8,8 +8,7 @@
 
 <h3>About Me</h3>
 <p>
-I’m an Electrical Engineering student driven by a curiosity for how light, materials, and circuits shape the technologies around us.  
-I enjoy bridging theory and implementation—breaking complex systems into modular problems, leading small teams, and diving deep into both the physics and algorithms that make hardware intelligent.
+I’m an Electrical Engineering student with a passion for material science, circuits, signal processing, and applied electromagnetics. I lead projects from theory to implementation, breaking complex problems into modules, guiding team members, and diving deep into research to fully understand systems before building them.
 </p>
 
 ---
@@ -21,7 +20,7 @@ I enjoy bridging theory and implementation—breaking complex systems into modul
 <p>
 Designed and implemented a multi-sensor fusion system to track moving objects by combining radar and camera measurements.  
 The EKF integrates asynchronous data from radar (position, velocity) and camera (centroid detections), while a Global Nearest Neighbor (GNN) algorithm handles data association.  
-Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong> and autonomous perception.
+Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
 <p><em>Tools:</em> MATLAB, Raspberry Pi, EKF, Constant Acceleration Motion Model, GNN Data Association</p>
