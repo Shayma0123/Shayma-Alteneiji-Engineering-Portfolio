@@ -1,7 +1,7 @@
 <h2 align="center">Welcome to My Engineering Portfolio 👋</h2>
 
 <p align="center">
-  <em>Electrical Engineering student passionate about photonics, material science, signal processing, and system design.</em>
+  <em>Electrical Engineering student passionate about material science, signal processing, and system design.</em>
 </p>
 
 ---
