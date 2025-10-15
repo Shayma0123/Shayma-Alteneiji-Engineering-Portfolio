@@ -30,7 +30,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
 <p align="center">
-  <img src="Senior Design Project/System Block Diagram .png" alt="System Block Diagram" width="700"><br>
+  <img src="Senior Design Project/System Block Diagram .png" alt="System Block Diagram" width="600"><br>
   <em>Figure 1. System Block Diagram for the Radar–Camera Fusion System</em>
 </p>
 
@@ -41,17 +41,25 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     <li>
       <strong> MATLAB Simulation</strong> — Throughput Analysis of Slotted and Pure ALOHA multiple access protocols with fixed and dynamic Retransmission probablity.<br>
       <em>Tools:</em> MATLAB, Poisson Distribution, BEB Retransmission
+      <div style="display:flex; justify-content:center;">
+        <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Pure ALOHA Simulation Plot.png" width="300" style="margin-right:10px;">
+        <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Slotted ALOHA Simulation Plot.png" width="300">
+      </div>
       
-      🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project">View Project Repository</a>
+      🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols)">View Project Repository</a>
     </li>
   <li>
     <strong>Control Systems </strong> — System identification and performance analysis of compensated systems.<br>
     <em>Tools:</em> MATLAB, Controller Design, System Transfer Function Identification 
-    🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project">View Project Repository</a>
+    🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/System%20Identification%20and%20Controller%20Design)">View Project Repository</a>
   </li>
+    <li>
+    <strong>COMSOL Assignment</strong> — Simulated a simple electrode system and analyzing deign effects on Electric field and breakdown voltage..<br>
+    <em>Tools:</em> COMSOL, Dielectric Breakdown, Electric Field Stress Control 
+    </li>
   <li>
-    <strong>DSP Adaptive Filtering</strong> — Implemented an LMS adaptive filter for noise cancellation in real-time signals.<br>
-    <em>Tools:</em> Python, NumPy, Matplotlib
+    <strong>Electrical Machines</strong> — Implmented an experiment to synchronize a synchronous generator to a grid (load).<br>
+    <em>Tools:</em> Generators, DC motors, Grid Synchronization
   </li>
 </ul>
 
@@ -62,11 +70,19 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     <li>
     <strong>Undergraduate Research Course</strong> — Tasks implemented as part of a project on designing a Pssive Radar System including theortical study, Derivations of related Eqs., and MATLAB simulations.<br>
     <em>Tools:</em> 3D Printing, Radar Systems, MATLAB 
-    🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project">View Project Repository</a>
+    🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)">View Project Repository</a>
     </li>
+    <li>
+    <strong>Electronic Circiuts Design</strong> — Designed and simulated an astable multivibrator circuit using (BJTs) to implement a police siren light.<br>
+    <em>Tools:</em> Multivibrator, BJT, Circiut Analsysis 
+  </li>
   <li>
     <strong>FPGA Project</strong> — Elevator controller for a four-floor using a finite state machine.<br>
     <em>Tools:</em> Python, Raspberry Pi, I2C
+  </li>
+    <li>
+    <strong> Microprocassor System Project</strong> — Interfaced a 4x4 matrix keypad with the FRDM KL25Z microcontroller to develop a key-scanning program.<br>
+    <em>Tools:</em> Microcontroller, TeraTerm, Assembly, Sensor Interface 
   </li>
 
 </ul>
@@ -81,7 +97,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
   </li>
 </ul>
 <p>
-🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project">View Project Repository</a>
+🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Adaptative%20Filtering%20in%20Noise%20Cancelling%20Headphones)">View Project Repository</a>
 </p>
 
 <p align="center">
