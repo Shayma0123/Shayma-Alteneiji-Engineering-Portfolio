@@ -30,7 +30,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
 <p align="center">
-  <img src="Senior Design Project/System Block Diagram .png" alt="System Block Diagram" width="600"><br>
+  <img src="Senior Design Project/System Block Diagram .png" alt="System Block Diagram" width="700"><br>
   <em>Figure 1. System Block Diagram for the Radar–Camera Fusion System</em>
 </p>
 
