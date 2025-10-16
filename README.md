@@ -21,7 +21,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 <p>
 🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project">View Project Repository</a>
-</p>
+  </p>
 
 <p align="center">
   <img src="Senior Design Project/System Block Diagram .png" alt="System Block Diagram" width="600"><br>
@@ -42,7 +42,8 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
       </div>
       </p>
       
-      🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols)">View Project Repository</a>
+      🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](http://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols
+)">View Project Repository</a>
     </li>
   <li>
     <strong>Control Systems </strong> — System identification and performance analysis of compensated systems.<br>
