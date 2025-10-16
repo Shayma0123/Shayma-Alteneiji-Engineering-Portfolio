@@ -1,10 +1,4 @@
-<h2 align="center">Welcome to My Engineering Portfolio 👋</h2>
-
-<p align="center">
-  <em>Electrical Engineering student passionate about material science, signal processing, and system design.</em>
-</p>
-
----
+<h2 align="center">Welcome to My Engineering Portfolio </h2>
 
 <h3>About Me</h3>
 <p>
@@ -41,10 +35,12 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     <li>
       <strong> MATLAB Simulation</strong> — Throughput Analysis of Slotted and Pure ALOHA multiple access protocols with fixed and dynamic Retransmission probablity.<br>
       <em>Tools:</em> MATLAB, Poisson Distribution, BEB Retransmission
+      <p align="center">
       <div style="display:flex; justify-content:center;">
         <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Pure ALOHA Simulation Plot.png" width="300" style="margin-right:10px;">
-        <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Slotted ALOHA Simulation Plot.png" width="300">
+        <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Slotted ALOHA Simulation Plot.png" width="350">
       </div>
+      </p>
       
       🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols)">View Project Repository</a>
     </li>
