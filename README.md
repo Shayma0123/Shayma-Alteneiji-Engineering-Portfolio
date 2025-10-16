@@ -13,7 +13,7 @@ I’m an Electrical Engineering student with a passion for material science, cir
 
 <p>
 Designed and implemented a multi-sensor fusion system to track moving objects by combining radar and camera measurements.  
-The EKF integrates asynchronous data from radar (position, velocity) and camera (centroid detections), while a Global Nearest Neighbor (GNN) algorithm handles data association.  
+The EKF integrates asynchronous data from radar (position, velocity) and camera YOLO object detection ouput  (centroid detections), while a Global Nearest Neighbor (GNN) algorithm handles data association (measument to track assignment).  
 Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
