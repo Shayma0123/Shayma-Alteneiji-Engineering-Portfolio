@@ -67,8 +67,8 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     <li>
     <strong>Undergraduate Research Course</strong> — Tasks implemented as part of a project on designing a Pssive Radar System including theortical study, Derivations of related Eqs., and MATLAB simulations.<br>
     <em>Tools:</em> 3D Printing, Radar Systems, MATLAB 
-    🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)">View Project Repository</a>
     </li>
+   🔗 <a href="[[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)">View Project Repository</a>
     <li>
     <strong>Electronic Circiuts Design</strong> — Designed and simulated an astable multivibrator circuit using (BJTs) to implement a police siren light.<br>
     <em>Tools:</em> Multivibrator, BJT, Circiut Analsysis 
