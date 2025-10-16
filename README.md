@@ -41,10 +41,10 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
         <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Slotted ALOHA Simulation Plot.png" width="350">
       </div>
       </p>
+    </li>
       
       🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](http://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols
 )">View Project Repository</a>
-    </li>
   <li>
     <strong>Control Systems </strong> — System identification and performance analysis of compensated systems.<br>
     <em>Tools:</em> MATLAB, Controller Design, System Transfer Function Identification 
