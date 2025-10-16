@@ -21,7 +21,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 <p>
 🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project">View Project Repository</a>
-  </p>
+</p>
 
 <p align="center">
   <img src="Senior Design Project/System Block Diagram .png" alt="System Block Diagram" width="600"><br>
@@ -42,13 +42,17 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
         </div>
       </p>
     </li>
+<p>
 🔗 <a href="[[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](http://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols
 )](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols)">View Project Repository</a>
+</p>
   
   <li>
     <strong>Control Systems </strong> — System identification and performance analysis of compensated systems.<br>
     <em>Tools:</em> MATLAB, Controller Design, System Transfer Function Identification 
+    <p>
     🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/System%20Identification%20and%20Controller%20Design)">View Project Repository</a>
+    </p>
   </li>
   <li>
     <strong>COMSOL Assignment</strong> — Simulated a simple electrode system and analyzing deign effects on Electric field and breakdown voltage..<br>
@@ -68,7 +72,9 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     <strong>Undergraduate Research Course</strong> — Tasks implemented as part of a project on designing a Pssive Radar System including theortical study, Derivations of related Eqs., and MATLAB simulations.<br>
     <em>Tools:</em> 3D Printing, Radar Systems, MATLAB 
     </li>
+  <p>
    🔗 <a href="[[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)">View Project Repository</a>
+    </p>
     <li>
     <strong>Electronic Circiuts Design</strong> — Designed and simulated an astable multivibrator circuit using (BJTs) to implement a police siren light.<br>
     <em>Tools:</em> Multivibrator, BJT, Circiut Analsysis 
