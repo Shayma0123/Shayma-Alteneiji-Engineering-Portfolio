@@ -2,7 +2,7 @@
 
 <h3>About Me</h3>
 <p>
-I’m an Electrical Engineering student with a passion for material science, circuits, signal processing, and applied electromagnetics. I lead projects from theory to implementation, breaking complex problems into modules, guiding team members, and diving deep into research to fully understand systems before building them.
+I’m an Electrical Engineering student with a passion for material science, circuits, signal processing, and applied electromagnetics. I lead projects from theory to implementation, breaking complex problems into modules, and diving deep into research to fully understand systems before building them.
 </p>
 
 ---
