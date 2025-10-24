@@ -109,5 +109,5 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 <h3>🤝 Connect With Me</h3>
 <p>Email: <a href="mailto:100063072@ku.ac.ae">100063072@ku.ac.ae</a></p>
-<p>GitHub: <a href="https://github.com/Shayma0123">github.com/Shayma0123</a></p>
+<p>GitHub: <a href="[https://github.com/Shayma0123">github.com/Shayma0123](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main)</a></p>
 <p>LinkedIn: <a href="https://www.linkedin.com/in/shayma-alteneiji/">linkedin.com/in/shayma-alteneiji</a></p>
