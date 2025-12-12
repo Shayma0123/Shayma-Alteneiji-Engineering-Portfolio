@@ -24,7 +24,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 <p align="center">
   <img src="Senior Design Project/Fusion_System_Higher_Level_Block_Diagram .png" alt="System Block Diagram" width="600"><br>
-  <em>Figure 1. System Block Diagram for the Radar–Camera Fusion System</em>
+  <em>System Block Diagram for the Radar–Camera Fusion System</em>
 </p>
 
 ---
@@ -35,10 +35,12 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
       <strong>MATLAB Simulation — Throughput Analysis of Slotted and Pure ALOHA Multiple Access Protocols </strong><br>
       <p>Analyzed system performance under fixed and dynamic retransmission probabilities.</p>
       <em>Tools:</em> MATLAB, Poisson Distribution, BEB Retransmission
+      <p>
         <div style="display:flex; justify-content:center;">
           <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Pure ALOHA Simulation Plot.png" width="350" style="margin-right:10px;">
           <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Slotted ALOHA Simulation Plot.png" width="385">
         </div>
+      </p>
     </li>
 <p>
 🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
@@ -56,11 +58,17 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     <strong>COMSOL Assignment</strong> 
     Simulated the effect of design parameters on electric field distribution and breakdown voltage.<br>
     <em>Tools:</em> COMSOL, Dielectric Breakdown, Electric Field Stress Control 
+    <p>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+    </p>
  </li>
 <li>
     <strong>Electrical Machines</strong> 
   Implemented an experiment to synchronize a synchronous generator to the grid(load).<br>
     <em>Tools:</em> Generators, DC motors, Grid Synchronization
+  <p>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+  </p>
 </li>
 </ul>
 
@@ -80,16 +88,25 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     <strong>Electronic Circiuts Design</strong> 
     Designed, simulated, and constructed an astable multivibrator circuit using BJTs to implement a police siren light. <br>
     <em>Tools:</em> Multivibrator, BJT, Circiut Analsysis 
+      <p>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+      </p>
   </li>
   <li>
     <strong>FPGA Project</strong>
     Elevator controller for a four-floor using a finite state machine. <br>
     <em>Tools:</em> Python, Raspberry Pi, I2C
+    <p>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+    </p>
   </li>
     <li>
     <strong> Microprocassor System Project</strong> 
     Interfaced a 4×4 matrix keypad with the FRDM KL25Z microcontroller to develop a key-scanning program.<br>
     <em>Tools:</em> Microcontroller, TeraTerm, Assembly, Sensor Interface 
+      <p>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+      </p>
   </li>
 
 </ul>
@@ -110,7 +127,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 <p align="center">
   <img src="Projects /Adaptative Filtering in Noise Cancelling Headphones/NC Headphones System Block Diagram.png" alt="NC Headphones System Block Diagram" width="600"><br>
-  <em>Figure 2. System Block Diagram for Headphone Active Noise Cancellation System </em>
+  <em>System Block Diagram for Headphone Active Noise Cancellation System </em>
 </p>
 
 ---
