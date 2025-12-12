@@ -12,7 +12,7 @@ I’m an Electrical Engineering student with a passion for material science, cir
 <h4>Radar–Camera Data Fusion for Object Localization and Tracking (Extended Kalman Filter)</h4>
 
 <p>
-Designed and implemented a multi-sensor fusion system to track moving objects by combining radar and camera measurements. The EKF integrates asynchronous radar data (position, velocity) with camera YOLO object detection outputs (centroid detections), while a Global Nearest Neighbor (GNN) algorithm handles measurement-to-track assignment. 
+Designed and implemented a multi-sensor fusion system to track moving objects by combining radar and camera measurements. The EKF integrates asynchronous radar data (position, velocity) with camera YOLO object detection outputs (centroid detections), while a Global Nearest Neighbor (GNN) algorithm handles measurement-to-track assignment. Fusion results are benchmarked using ArUco markers to extract the ground truth states. 
 Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
