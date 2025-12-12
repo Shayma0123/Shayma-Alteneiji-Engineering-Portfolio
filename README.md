@@ -46,7 +46,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
   
   <li>
     <strong>Control Systems </strong> 
-    <p> System identification and performance analysis of compensated systems using P, PI, PD, and PID controllers. </p> <br>
+    System identification and performance analysis of compensated systems using P, PI, PD, and PID controllers. <br>
     <em>Tools:</em> MATLAB, Controller Design, System Transfer Function Identification 
     <p>
     🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/System%20Identification%20and%20Controller%20Design)">View Project Repository</a>
@@ -54,12 +54,12 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
   </li>
   <li>
     <strong>COMSOL Assignment</strong> 
-    <p> Simulated the effect of design parameters on electric field distribution and breakdown voltage. </p> <br>
+    Simulated the effect of design parameters on electric field distribution and breakdown voltage.<br>
     <em>Tools:</em> COMSOL, Dielectric Breakdown, Electric Field Stress Control 
  </li>
 <li>
     <strong>Electrical Machines</strong> 
-  <p>Implemented an experiment to synchronize a synchronous generator to the grid(load). <p><br>
+  Implemented an experiment to synchronize a synchronous generator to the grid(load).<br>
     <em>Tools:</em> Generators, DC motors, Grid Synchronization
 </li>
 </ul>
@@ -69,7 +69,8 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <h3>💻 Research & Mini-Projects</h3>
 <ul>
     <li>
-    <strong>Undergraduate Research Course</strong> — Tasks implemented as part of a project on designing a Pssive Radar System including theortical study, Derivations of related Eqs., and MATLAB simulations.<br>
+    <strong>Undergraduate Research Course</strong>
+    Tasks implemented as part of a project on designing a Pssive Radar System including theortical study, Derivations of related Eqs., and MATLAB simulations.<br>
     <em>Tools:</em> 3D Printing, Radar Systems, MATLAB 
     </li>
   <p>
@@ -77,17 +78,17 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     </p>
     <li>
     <strong>Electronic Circiuts Design</strong> 
-      <p>Designed, simulated, and constructed an astable multivibrator circuit using BJTs to implement a police siren light. </p><br>
+    Designed, simulated, and constructed an astable multivibrator circuit using BJTs to implement a police siren light. <br>
     <em>Tools:</em> Multivibrator, BJT, Circiut Analsysis 
   </li>
   <li>
     <strong>FPGA Project</strong>
-    <p>Elevator controller for a four-floor using a finite state machine. </p><br>
+    Elevator controller for a four-floor using a finite state machine. <br>
     <em>Tools:</em> Python, Raspberry Pi, I2C
   </li>
     <li>
     <strong> Microprocassor System Project</strong> 
-      <p>Interfaced a 4×4 matrix keypad with the FRDM KL25Z microcontroller to develop a key-scanning program.</p><br>
+    Interfaced a 4×4 matrix keypad with the FRDM KL25Z microcontroller to develop a key-scanning program.<br>
     <em>Tools:</em> Microcontroller, TeraTerm, Assembly, Sensor Interface 
   </li>
 
@@ -99,7 +100,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <ul>
   <li>
     <strong>Active Noise Cancellation </strong> 
-    <p>Real-time implementation using FxLMS algorithm with Raspberry Pi and MEMS microphones.</p><br>
+    Real-time implementation using FxLMS algorithm with Raspberry Pi and MEMS microphones.<br>
     <em>Tools:</em> FxLMS Algorithm, Rassberry Pi, MEMS microphones, Python 
   </li>
 </ul>
