@@ -7,7 +7,7 @@ I’m an Electrical Engineering student with a passion for material science, cir
 
 ---
 
-<h3>🚀 Featured Project — Senior Design</h3>
+<h3>🚀 Senior Design Project </h3>
 
 <h4>Radar–Camera Data Fusion for Object Localization and Tracking (Extended Kalman Filter)</h4>
 
