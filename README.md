@@ -12,8 +12,7 @@ I’m an Electrical Engineering student with a passion for material science, cir
 <h4>Radar–Camera Data Fusion for Object Localization and Tracking (Extended Kalman Filter)</h4>
 
 <p>
-Designed and implemented a multi-sensor fusion system to track moving objects by combining radar and camera measurements.  
-The EKF integrates asynchronous data from radar (position, velocity) and camera YOLO object detection ouput  (centroid detections), while a Global Nearest Neighbor (GNN) algorithm handles data association (measument to track assignment).  
+Designed and implemented a multi-sensor fusion system to track moving objects by combining radar and camera measurements. The EKF integrates asynchronous radar data (position, velocity) with camera YOLO object detection outputs (centroid detections), while a Global Nearest Neighbor (GNN) algorithm handles measurement-to-track assignment. 
 Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
@@ -33,7 +32,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <h3>📊 Coursework & Simulations</h3>
 <ul>
     <li>
-      <strong> MATLAB Simulation</strong> — Throughput Analysis of Slotted and Pure ALOHA multiple access protocols with fixed and dynamic Retransmission probablity.<br>
+      <strong>MATLAB Simulation — Throughput Analysis of Slotted and Pure ALOHA Multiple Access Protocols </strong> Analyzed system performance under fixed and dynamic retransmission probabilities.<br>
       <em>Tools:</em> MATLAB, Poisson Distribution, BEB Retransmission
         <div style="display:flex; justify-content:center;">
           <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Pure ALOHA Simulation Plot.png" width="350" style="margin-right:10px;">
