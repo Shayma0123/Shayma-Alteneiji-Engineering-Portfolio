@@ -45,18 +45,21 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
   
   <li>
-    <strong>Control Systems </strong> — System identification and performance analysis of compensated systems.<br>
+    <strong>Control Systems </strong> 
+    <p> System identification and performance analysis of compensated systems using P, PI, PD, and PID controllers. </p> <br>
     <em>Tools:</em> MATLAB, Controller Design, System Transfer Function Identification 
     <p>
     🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/System%20Identification%20and%20Controller%20Design)">View Project Repository</a>
     </p>
   </li>
   <li>
-    <strong>COMSOL Assignment</strong> — Simulated a simple electrode system and analyzing deign effects on Electric field and breakdown voltage..<br>
+    <strong>COMSOL Assignment</strong> 
+    <p> Simulated the effect of design parameters on electric field distribution and breakdown voltage. </p> <br>
     <em>Tools:</em> COMSOL, Dielectric Breakdown, Electric Field Stress Control 
  </li>
 <li>
-    <strong>Electrical Machines</strong> — Implmented an experiment to synchronize a synchronous generator to a grid (load).<br>
+    <strong>Electrical Machines</strong> 
+  <p>Implemented an experiment to synchronize a synchronous generator to the grid(load). <p><br>
     <em>Tools:</em> Generators, DC motors, Grid Synchronization
 </li>
 </ul>
@@ -73,15 +76,18 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
    🔗 <a href="[[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Undergraduate%20Research%20Course)">View Project Repository</a>
     </p>
     <li>
-    <strong>Electronic Circiuts Design</strong> — Designed and simulated an astable multivibrator circuit using (BJTs) to implement a police siren light.<br>
+    <strong>Electronic Circiuts Design</strong> 
+      <p>Designed, simulated, and constructed an astable multivibrator circuit using BJTs to implement a police siren light. </p><br>
     <em>Tools:</em> Multivibrator, BJT, Circiut Analsysis 
   </li>
   <li>
-    <strong>FPGA Project</strong> — Elevator controller for a four-floor using a finite state machine.<br>
+    <strong>FPGA Project</strong>
+    <p>Elevator controller for a four-floor using a finite state machine. </p><br>
     <em>Tools:</em> Python, Raspberry Pi, I2C
   </li>
     <li>
-    <strong> Microprocassor System Project</strong> — Interfaced a 4x4 matrix keypad with the FRDM KL25Z microcontroller to develop a key-scanning program.<br>
+    <strong> Microprocassor System Project</strong> 
+      <p>Interfaced a 4×4 matrix keypad with the FRDM KL25Z microcontroller to develop a key-scanning program.</p><br>
     <em>Tools:</em> Microcontroller, TeraTerm, Assembly, Sensor Interface 
   </li>
 
@@ -92,7 +98,8 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <h3>⚡ Work in Progress</h3>
 <ul>
   <li>
-    <strong>Active Noise Cancellation </strong> — Work-in-progress real-time implementation for headphones.<br>
+    <strong>Active Noise Cancellation </strong> 
+    <p>Real-time implementation using FxLMS algorithm with Raspberry Pi and MEMS microphones.</p><br>
     <em>Tools:</em> FxLMS Algorithm, Rassberry Pi, MEMS microphones, Python 
   </li>
 </ul>
@@ -102,7 +109,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 <p align="center">
   <img src="Projects /Adaptative Filtering in Noise Cancelling Headphones/NC Headphones System Block Diagram.png" alt="NC Headphones System Block Diagram" width="600"><br>
-  <em>Figure 1. System Block Diagram for the Radar–Camera Fusion System</em>
+  <em>Figure 2. System Block Diagram for Headphone Active Noise Cancellation System </em>
 </p>
 
 ---
