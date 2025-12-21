@@ -43,7 +43,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
       </p>
     </li>
 <p>
-🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Pure%20and%20Slotted%20ALOHA%20MAC%20Protocols%20MATLAB%20Simulations">View Project Repository</a>
 </p>
   
   <li>
