@@ -38,7 +38,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <p><strong>Demo Video</strong></p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=H9NKajhr28o" target="_blank">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
     <img src="https://img.youtube.com/vi/VIDEO_ID/0.jpg"
          alt="Demo Video Thumbnail"
          width="600">
