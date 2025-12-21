@@ -1,3 +1,5 @@
-<h3> This project involved designing and implementing a noise-canceling headphone system using adaptive filters. We successfully modeled the 
+<p>
+This project involved designing and implementing a noise-canceling headphone system using adaptive filters. We successfully modeled the 
 secondary path effects to account for the non-idealities of real-world components. However, the main adaptive filter code is still under troubleshooting, 
-with plans to resolve the issue to achieve a fully functional system. </h3>
+with plans to resolve the issue to achieve a fully functional system.
+</p>
