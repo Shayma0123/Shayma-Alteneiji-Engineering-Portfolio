@@ -45,6 +45,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <p>
 🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Pure%20and%20Slotted%20ALOHA%20MAC%20Protocols%20MATLAB%20Simulations">View Project Repository</a>
 </p>
+
 ---
 
 <h3>⚡ Work in Progress</h3>
@@ -65,6 +66,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
 ---
+
 <h3>💻 Other Projects </h3>
   <li>
     <strong>Control Systems </strong> 
