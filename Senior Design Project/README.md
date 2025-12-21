@@ -20,7 +20,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </ul>
 
 <p align="center">
-  <img src="Senior Design Project/Fusion_System_Higher_Level_Block_Diagram.png"
+  <img src="Senior Design Project/Fusion_System_Higher_Level_Block_Diagram .png"
        alt="Radar–Camera Fusion System Block Diagram"
        width="650"><br>
   <em>High-level block diagram of the radar–camera fusion pipeline</em>
