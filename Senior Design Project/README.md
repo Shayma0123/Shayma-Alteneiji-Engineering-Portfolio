@@ -20,10 +20,8 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <strong> Contribution</strong> 
 <li> Designed and implemented EKF fusion from scratch, handled calibration, MATLAB implementation, interfaced radar and camera sensors, integrated teammates’ modules, and guided system-level testing. </li>
 
-<strong> Demo Video Link</strong> 
-🔗 <a href=" https://www.youtube.com/watch?v=H9NKajhr28o"> Demonstration Video </a></p>
-<p align="center">
-  <img src=" Senior Design Project/Screenshot_from_Demo_Video.png " alt=" Screenshot from the Demonstration Video " width="600"><br>
+<p><strong> Demo Video Link</strong></p>
+  [![Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=H9NKajhr28o)
   <em>Screenshot from the Demonstration Video </em>
 </p>
 <strong> Key Notes / Highlights</strong> 
