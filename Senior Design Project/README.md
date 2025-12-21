@@ -42,7 +42,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
          alt="Demo Video Thumbnail"
          width="600">
   </a><br>
-  <em>Demonstration of asynchronous EKF fusion and target tracking</em>
+  <em>Demonstration of radar-based EKF target tracking</em>
 </p>
 
 <strong>Key Highlights:</strong>
