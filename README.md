@@ -45,7 +45,27 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <p>
 🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Pure%20and%20Slotted%20ALOHA%20MAC%20Protocols%20MATLAB%20Simulations">View Project Repository</a>
 </p>
-  
+---
+
+<h3>⚡ Work in Progress</h3>
+<ul>
+  <li>
+    <strong>Active Noise Cancellation </strong> 
+    Real-time implementation using FxLMS algorithm with Raspberry Pi and MEMS microphones.<br>
+    <em>Tools:</em> FxLMS Algorithm, Rassberry Pi, MEMS microphones, Python 
+  </li>
+</ul>
+<p>
+🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Adaptative%20Filtering%20in%20Noise%20Cancelling%20Headphones)">View Project Repository</a>
+</p>
+
+<p align="center">
+  <img src="Projects /Adaptative Filtering in Noise Cancelling Headphones/NC Headphones System Block Diagram.png" alt="NC Headphones System Block Diagram" width="600"><br>
+  <em>System Block Diagram for Headphone Active Noise Cancellation System </em>
+</p>
+
+---
+<h3>💻 Other Projects </h3>
   <li>
     <strong>Control Systems </strong> 
     System identification and performance analysis of compensated systems using P, PI, PD, and PID controllers. <br>
@@ -72,9 +92,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </li>
 </ul>
 
----
 
-<h3>💻 Research & Mini-Projects</h3>
 <ul>
     <li>
     <strong>Undergraduate Research Course</strong>
@@ -111,26 +129,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 </ul>
 
----
 
-<h3>⚡ Work in Progress</h3>
-<ul>
-  <li>
-    <strong>Active Noise Cancellation </strong> 
-    Real-time implementation using FxLMS algorithm with Raspberry Pi and MEMS microphones.<br>
-    <em>Tools:</em> FxLMS Algorithm, Rassberry Pi, MEMS microphones, Python 
-  </li>
-</ul>
-<p>
-🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Adaptative%20Filtering%20in%20Noise%20Cancelling%20Headphones)">View Project Repository</a>
-</p>
-
-<p align="center">
-  <img src="Projects /Adaptative Filtering in Noise Cancelling Headphones/NC Headphones System Block Diagram.png" alt="NC Headphones System Block Diagram" width="600"><br>
-  <em>System Block Diagram for Headphone Active Noise Cancellation System </em>
-</p>
-
----
 
 <h3>🤝 Connect With Me</h3>
 <p>Email: <a href="mailto:100063072@ku.ac.ae">100063072@ku.ac.ae</a></p>
