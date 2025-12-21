@@ -30,15 +30,14 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <ul>
   <li>
     Designed and implemented the EKF-based fusion and tracking pipeline from scratch, performed calibration,
-    interfaced the TI IWR6843 radar with the Raspberry Pi, integrated team-developed modules, and led system-level
-    testing and performance evaluation.
+    interfaced the TI IWR6843 radar with the Raspberry Pi, and led & integrated team-developed modules.
   </li>
 </ul>
 
 <p><strong>Demo Video</strong></p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
+  <a href="https://www.youtube.com/watch?v=H9NKajhr28o" target="_blank">
     <img src="Screenshot_from_Demo_Video.png"
          alt="Demo Video Thumbnail"
          width="600">
