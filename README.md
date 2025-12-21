@@ -57,7 +57,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
   </li>
 </ul>
 <p>
-🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Adaptative%20Filtering%20in%20Noise%20Cancelling%20Headphones)">View Project Repository</a>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Work%20in%20Progress%3A%20Adaptive%20Filtering%20in%20Noise-%20Cancelling%20Headphones">View Project Repository</a>
 </p>
 
 <p align="center">
