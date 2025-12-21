@@ -61,7 +61,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
 
 <p align="center">
-  <img src="Projects /Adaptative Filtering in Noise Cancelling Headphones/NC Headphones System Block Diagram.png" alt="NC Headphones System Block Diagram" width="600"><br>
+  <img src="Work in Progress: Adaptive Filtering in Noise- Cancelling Headphones/NC Headphones System Block Diagram.png" alt="NC Headphones System Block Diagram" width="600"><br>
   <em>System Block Diagram for Headphone Active Noise Cancellation System </em>
 </p>
 
