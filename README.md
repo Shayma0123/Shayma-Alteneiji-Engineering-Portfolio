@@ -29,7 +29,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 ---
 
-<h3>📊 Coursework & Simulations</h3>
+<h3>💻 Simulation</h3>
 <ul>
     <li>
       <strong>MATLAB Simulation — Throughput Analysis of Slotted and Pure ALOHA Multiple Access Protocols </strong><br>
@@ -67,7 +67,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 
 ---
 
-<h3>💻 Other Projects </h3>
+<h3>📊 Coursework & Other Projects</h3>
   <li>
     <strong>Control Systems </strong> 
     System identification and performance analysis of compensated systems using P, PI, PD, and PID controllers. <br>
