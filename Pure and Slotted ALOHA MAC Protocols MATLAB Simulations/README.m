@@ -1,7 +1,14 @@
-<h4>
-This assignment explored Pure and Slotted ALOHA. They differ in that Pure ALOHA allows sending packets as soon as they are generated,
-while Slotted ALOHA only allows transmissions at the beginning of a synchronized time slot. Both protocols were simulated on MATLAB for obtaining
-the throughput vs offered load curves for varying number of retransmissions counts allowed <strong> (from scratch by Shayma Alteneiji)</strong>. 
-We also explored retransmissions with a probability inverse to that of the number of stations waiting to retransmit. This significantly improves throughput 
-efficiency, as it stabilizes the channels congestion. 
-</h4>
+<h4>Pure and Slotted ALOHA Protocol Simulation</h4>
+
+<p>
+This assignment explores the Pure and Slotted ALOHA medium access protocols. Pure ALOHA allows packets to be transmitted
+immediately upon generation, whereas Slotted ALOHA restricts transmissions to the beginning of synchronized time slots.
+Both protocols were simulated in MATLAB to obtain throughput versus offered load curves for varying allowed
+retransmission counts, <strong> implemented entirely from scratch by Shayma Alteneiji</strong> .
+</p>
+
+<p>
+Additionally, a probabilistic retransmission strategy was investigated, where the retransmission probability is inversely
+proportional to the number of stations waiting to retransmit. This approach significantly improves throughput efficiency
+by stabilizing channel congestion.
+</p>
