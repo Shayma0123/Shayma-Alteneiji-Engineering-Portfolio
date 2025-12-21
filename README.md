@@ -37,8 +37,8 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
       <em>Tools:</em> MATLAB, Poisson Distribution, BEB Retransmission
       <p>
         <div style="display:flex; justify-content:center;">
-          <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Pure ALOHA Simulation Plot.png" width="350" style="margin-right:10px;">
-          <img src="Projects /Comparative Study of Pure ALOHA vs. Slotted ALOHA MAC Protocols/Slotted ALOHA Simulation Plot.png" width="385">
+          <img src="Pure and Slotted ALOHA MAC Protocols MATLAB Simulations/Pure ALOHA Simulation Plot.png" width="350" style="margin-right:10px;">
+          <img src="Pure and Slotted ALOHA MAC Protocols MATLAB Simulations/Slotted ALOHA Simulation Plot.png" width="385">
         </div>
       </p>
     </li>
