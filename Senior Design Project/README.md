@@ -16,6 +16,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
   <img src="Senior Design Project/Fusion_System_Higher_Level_Block_Diagram .png" alt="System Block Diagram" width="600"><br>
   <em>System Block Diagram for the Radar–Camera Fusion System</em>
 </p>
+
 <p><strong> Contribution</strong> </p>
 <li> Designed and implemented EKF fusion from scratch, handled calibration, MATLAB implementation, interfaced radar and camera sensors, integrated teammates’ modules, and guided system-level testing. </li>
 
