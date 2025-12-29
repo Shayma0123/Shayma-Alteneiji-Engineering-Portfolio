@@ -50,7 +50,5 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
   <li> Camera-based fog classification module implemented but not evaluated due to reprojection errors
     in the experimental setup  </li>
   <li> Radar-only EKF tracking achieved RMSE values as low as <strong>0.5 m</strong></li>
-  <li>Asynchronous fusion architecture supports out-of-sequence measurements</li>
-
   <li>MATLAB codebase is modular and fully documented for reproducibility</li>
 </ul>
