@@ -1,0 +1,59 @@
+function [kcr] = K_cri(z,p,k)
+w = 10e-3:10e-4:10e4;
+n = length(z); % determines the number of zeros and poles
+m = length(p);
+% determines the number of zeros and poles at the origin
+n_z_index = find(z == 0);z
+m_z_index = find(p == 0);
+n_z = length(find(z == 0));
+m_z = length(find(p == 0));
+% Calculates the phase due the poles and zeros at the origin
+phase = 90*n_z -90*m_z;
+% Calculates the phase due the zeros not at the origin
+ for q = 1:n
+ if (q == n_z_index)
+ continue;
+ else
+ phase = atand(w/z(q))+ phase;
+ end
+ end
+% Calculates the phase due the poles not at the origin
+ for l = 1:m
+ if (l == m_z_index)
+ continue;
+ else
+ phase = phase - atand(w/p(l));
+ end
+ end
+% Accounts for the 180 degree for K<0
+ if k<0
+ phase = phase +180;
+ end
+% Determines the frequency at which the phase is -180 degree
+% Takes the absolute of the subtraction of the phase by -180 degrees
+% The minimum of this difference is where w = w GM
+% Defines a variable w_new_crossover = w GM
+diff = abs(phase + 180);
+[min_valu index] = min(diff);
+w_new_crossover = w(index);
+25 | P a g e
+(Continued code, Appendix A)
+% Calculates the gain at the new_crossover frequency
+G = k;
+ num_abs = sqrt((w_new_crossover./z).^2 + 1);
+ den_abs = sqrt((w_new_crossover./p).^2+ 1);
+ for q = 1:n
+ G = num_abs(q)*G;
+ end
+ for l = 1:m
+ G = G*(1/den_abs(l));
+ end
+% Calculates Kcri
+kn = 1./G; % As G was calculated in linear scale K_ci
+kcr = kn*k;
+ for q = 1:n
+ kcr = kcr*z(q);
+ end
+ for l = 1:m
+ kcr = kcr*p(l);
+ end
