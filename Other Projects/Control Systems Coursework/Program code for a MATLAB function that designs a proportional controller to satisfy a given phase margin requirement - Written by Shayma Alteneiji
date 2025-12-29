@@ -1,0 +1,55 @@
+function [kp] = p_con(z,p,k, phase_margin)
+w = 10e-3:10e-4:10e4;
+n = length(z); % determines the number of zeros and poles
+m = length(p);
+% determines the number of zeros and poles at the origin
+n_z_index = find(z == 0);z
+m_z_index = find(p == 0);
+n_z = length(find(z == 0));
+m_z = length(find(p == 0));
+% Calculates the phase due the poles and zeros at the origin
+phase = 90*n_z -90*m_z;
+% Calculates the phase due the zeros not at the origin
+ for q = 1:n
+ if (q == n_z_index)
+ continue;
+ else
+ phase = atand(w/z(q))+ phase;
+ end
+ end
+% Calculates the phase due the poles not at the origin
+ for l = 1:m
+ if (l == m_z_index)
+ continue;
+ else
+ phase = phase - atand(w/p(l));
+ end
+ end
+% Accounts for the 180 degree for K<0
+ if k<0
+ phase = phase +180;
+ end
+% Determines the required phase at the new crossover frequency
+ req_phase = phase_margin - 180;
+% Determines the new crossover frequency
+diff = abs(phase - req_phase);
+[min_valu index] = min(diff);
+w_new_crossover = w(index);
+% Step 4: Calculate the gain at the new_crossover frequency
+G = k;
+27 | P a g e
+(Continued code, Appendix B)
+num_abs = sqrt((w_new_crossover./z).^2 + 1);
+ den_abs = sqrt((w_new_crossover./p).^2+ 1);
+ for q = 1:n
+ G = num_abs(q)*G;
+ end
+ for l = 1:m
+ G = G*(1/den_abs(l));
+ end
+% Step 6: Calculate the controller gain
+kp = 1./G;
+% to plot the compensated and uncompensated system
+% margin(g)
+% hold
+% margin(kp*g), where g is the tf of the uncompensated system
