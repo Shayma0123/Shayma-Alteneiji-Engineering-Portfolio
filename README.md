@@ -109,7 +109,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     Designed, simulated, and constructed an astable multivibrator circuit using BJTs to implement a police siren light. <br>
     <em>Tools:</em> Multivibrator, BJT, Circiut Analsysis 
       <p>
-🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Other%20Projects/Electronic%20Circiuts%20and%20Devices%20Course%20Project">View Project Repository</a>
       </p>
   </li>
   <li>
