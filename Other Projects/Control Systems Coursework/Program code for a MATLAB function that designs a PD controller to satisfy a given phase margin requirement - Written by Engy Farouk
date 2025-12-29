@@ -1,0 +1,13 @@
+G=tf([1/0.9, 1],[(1/(27^2*6)), (1/(27*3)+1/(27^2)),
+(2/27+1/6),1])*(10^(3.83515/20))
+GC=PD_controller(G,82.5,60.7)
+function [GC]=PD_controller(G,Wc,w)
+Gain=abs(evalfr(G,Wc*i))
+Kc=1/Gain
+G1=Kc*G
+[Gm,Pm,WCG,WCP]=margin(G1)
+a=(w-Pm)/90
+T=tan(a*pi/2)+sec(a*pi/2)
+GC=tf([(T/Wc), 1],[(1/Wc), T])
+margin(G1*GC)
+end
