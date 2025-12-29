@@ -5,7 +5,7 @@
 <p>
 Designed and implemented a multi-sensor data fusion system for target tracking by combining radar and camera measurements.
 An Extended Kalman Filter (EKF) integrates asynchronous radar measurements (position and radial velocity) with camera-based
-object detections obtained using YOLO. A Global Nearest Neighbour (GNN) algorithm performs probabilistic
+object detections obtained using YOLO. A Global Nearest Neighbour (GNN) algorithm performs
 measurement-to-track assignment. Tracking performance is benchmarked using ground-truth states extracted from ArUco markers.
 Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 </p>
