@@ -89,7 +89,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
   Implemented an experiment to synchronize a synchronous generator to the grid(load).<br>
     <em>Tools:</em> Generators, DC motors, Grid Synchronization
   <p>
-🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/Comparative%20Study%20of%20Pure%20ALOHA%20vs.%20Slotted%20ALOHA%20MAC%20Protocols">View Project Repository</a>
+🔗 <a href="hub.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Other%20Projects/Electrical%20Machines%20Design%20of%20Experiment">View Project Repository</a>
   </p>
 </li>
 </ul>
