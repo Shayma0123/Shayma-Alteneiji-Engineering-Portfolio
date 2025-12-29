@@ -73,7 +73,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
     System identification and performance analysis of compensated systems using P, PI, PD, and PID controllers. <br>
     <em>Tools:</em> MATLAB, Controller Design, System Transfer Function Identification 
     <p>
-    🔗 <a href="[https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Senior%20Design%20Project](https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Projects%20/System%20Identification%20and%20Controller%20Design)">View Project Repository</a>
+    🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Other%20Projects/Control%20Systems%20Coursework">View Project Repository</a>
     </p>
   </li>
   <li>
