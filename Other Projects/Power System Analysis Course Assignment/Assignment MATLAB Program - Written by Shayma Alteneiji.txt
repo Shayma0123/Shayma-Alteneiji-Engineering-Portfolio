@@ -1,0 +1,185 @@
+clc;clear all
+Y = [3.483-1j*20.4536 1j*10 0 0 -3.483+1j*10.453 0 0 0;
+1j*10 0.4694-1j*11.8792 -0.256+1j*1.025 -0.2134+1j*0.8542 0 0 0 0;
+0 -0.256+1j*1.025 0.256-1j*2.025 0 0 1j 0 0;
+0 -0.2134+1j*0.8542 0 0.2134-1j*1.8542 0 0 1j 0;
+-3.483+1j*10.453 0 0 0 3.483-1j*11.4536 0 0 1j;
+0 0 1j 0 0 -1j 0 0 ;
+0 0 0 1j 0 0 0.238-1j*1.283 -0.238+1j*0.283;
+0 0 0 0 1j 0 -0.238+1j*0.283 0.238-1j*1.283];
+n_buses = 8; PV = 32.6e3;P= 6e6;PV_pu = PV/33e3;
+V_comp = [ 128/132 PV_pu ones(1,6)];
+S = [0 0 0.0368+0.01568*1i 0.0704+0.0380*1i 0.2236+1j*0.13268 0.045+1j*0.021794 0.0384+1j*0.0112 0.0736+1j*0.031353 ];
+E =1;iteration = 0;
+while (E>= 1e-8)
+for m = 2:n_buses %rows
+sum = 0;Q=0;
+if (m == 2)
+for h = 1:n_buses
+Q = Q + abs(V_comp(m)*V_comp(h)*Y(m,h))*sin(angle(V_comp(m))-angle(Y(m,h))-angle(V_comp(h)));
+end
+S(m) = P/100e6 - 1j*Q;
+end
+for q = 1:n_buses
+if (m == q)
+continue;
+end
+sum = conj(Y(m,q)*V_comp(1, q)/Y(m,m)) +sum;
+end
+V_comp_pre = V_comp(m);
+if (m == 2)
+theta = angle(conj(-S(1,m)/(conj(Y(m,m))*V_comp(1,m)) - sum));
+V_comp(m) = PV_pu*(cos(theta)+1j*sin(theta));
+else
+V_comp(m) = conj(-S(1,m)/(conj(Y(m,m))*V_comp(1,m)) - sum);
+end
+E = abs(V_comp - V_comp_pre);
+iteration = iteration +1;
+end
+end
+Table = [ (1:8)' abs(V_comp)' (angle(V_comp)*(180/pi))' ]; 
+display("The bus Voltages ")
+display("Magnitude Phase ")
+display(Table)
+I = Y*V_comp';
+Z12 = 1j*0.1;Z23 = 0.2295+1j*0.9182;Z24 = 0.2754+1j*1.109;
+Z15 = 0.02869+1j*0.0861; Z36 = 1j;Z47 = 1j*0.8333;
+Z58 = 1j*0.8333;Z78 = 1.735+1j*2.0661;
+% Calculate The line power losses
+%Bus 1 to bus 2
+I12 = (V_comp(2) - V_comp(1))/Z12;
+% Calculate The line power losses
+Pl_12 = abs(I12)^2*real(Z12);
+% Calculate the active power flow
+P12 = (abs(V_comp(1))*abs(V_comp(2))/abs(Z12))*cos(angle(V_comp(1)-angle(V_comp(2)))) - (abs(V_comp(1)/Z12)^2)*real(Z12);
+% Calculate the reactive power flow
+Q12 = (abs(V_comp(1))*abs(V_comp(2))/abs(Z12))*sin(angle(V_comp(1)-angle(V_comp(2)))) - (abs(V_comp(1)/Z12)^2)*imag(Z12);
+%Bus 2 to bus 3
+I23 = (V_comp(2) - V_comp(3))/Z23;
+Pl_23 = abs(I23)^2*real(Z23);
+% Calculate the active power flow
+P23 = (abs(V_comp(3))*abs(V_comp(2))/abs(Z23))*cos(angle(V_comp(3)-angle(V_comp(2)))) - (abs(V_comp(2)/Z23)^2)*real(Z23);
+% Calculate the reactive power flow
+Q23 = (abs(V_comp(3))*abs(V_comp(2))/abs(Z23))*sin(angle(V_comp(2)-angle(V_comp(3)))) - (abs(V_comp(2)/Z23)^2)*imag(Z23);
+%Bus 2 to bus 4
+I24 = (V_comp(2) - V_comp(4))/Z24;
+Pl_24 = abs(I24)^2*real(Z24);
+% Calculate the active power flow
+P24 = (abs(V_comp(4))*abs(V_comp(2))/abs(Z24))*cos(angle(V_comp(4)-angle(V_comp(2)))) - (abs(V_comp(2)/Z24)^2)*real(Z24);
+% Calculate the reactive power flow
+Q24 = (abs(V_comp(4))*abs(V_comp(2))/abs(Z24))*sin(angle(V_comp(2)-angle(V_comp(4)))) - (abs(V_comp(2)/Z24)^2)*imag(Z24);
+%Bus 3 to bus 6
+I36 = (V_comp(3) - V_comp(6))/Z36;
+Pl_36 = abs(I36)^2*real(Z36);
+% Calculate the active power flow
+P36 = (abs(V_comp(3))*abs(V_comp(6))/abs(Z36))*cos(angle(V_comp(3)-angle(V_comp(6)))) - (abs(V_comp(3)/Z36)^2)*real(Z36);
+% Calculate the reactive power flow
+Q36 = (abs(V_comp(3))*abs(V_comp(6))/abs(Z36))*sin(angle(V_comp(3)-angle(V_comp(6)))) - (abs(V_comp(3)/Z36)^2)*imag(Z36);
+%Bus 4 to bus 7
+I47 = (V_comp(4) - V_comp(7))/Z47;
+Pl_47 = abs(I47)^2*real(Z47);
+% Calculate the active power flow
+P47 = (abs(V_comp(4))*abs(V_comp(7))/abs(Z47))*cos(angle(V_comp(4)-angle(V_comp(7)))) - (abs(V_comp(4)/Z47)^2)*real(Z47);
+% Calculate the reactive power flow
+Q47 = (abs(V_comp(4))*abs(V_comp(7))/abs(Z47))*sin(angle(V_comp(4)-angle(V_comp(7)))) - (abs(V_comp(4)/Z47)^2)*imag(Z47);
+%Bus 7 to bus 8
+I78 = (V_comp(8) - V_comp(7))/Z78;
+Pl_78 = abs(I78)^2*real(Z78);
+% Calculate the active power flow
+P78 = (abs(V_comp(7))*abs(V_comp(8))/abs(Z78))*cos(angle(V_comp(7)-angle(V_comp(8)))) - (abs(V_comp(7)/Z78)^2)*real(Z78);
+% Calculate the reactive power flow
+Q78 = (abs(V_comp(7))*abs(V_comp(8))/abs(Z78))*sin(angle(V_comp(7)-angle(V_comp(8)))) - (abs(V_comp(7)/Z78)^2)*imag(Z78);
+%Bus 1 to bus 5
+I15 = (V_comp(1) - V_comp(5))/Z15;
+Pl_15 = abs(I15)^2*real(Z15);
+% Calculate the active power flow
+P15 = (abs(V_comp(1))*abs(V_comp(5))/abs(Z15))*cos(angle(V_comp(1)-angle(V_comp(5)))) - (abs(V_comp(1)/Z15)^2)*real(Z15);
+% Calculate the reactive power flow
+Q15 = (abs(V_comp(1))*abs(V_comp(5))/abs(Z15))*sin(angle(V_comp(1)-angle(V_comp(5)))) - (abs(V_comp(1)/Z15)^2)*imag(Z15);
+%Bus 5 to bus 8
+I58 = (V_comp(5) - V_comp(8))/Z58;
+Pl_58 = abs(I58)^2*real(Z58);
+% Calculate the active power flow
+P58 = (abs(V_comp(5))*abs(V_comp(8))/abs(Z58))*cos(angle(V_comp(5)-angle(V_comp(8)))) - (abs(V_comp(5)/Z58)^2)*real(Z58);
+% Calculate the reactive power flow
+Q58 = (abs(V_comp(5))*abs(V_comp(8))/abs(Z58))*sin(angle(V_comp(5)-angle(V_comp(8)))) - (abs(V_comp(5)/Z58)^2)*imag(Z58);
+
+P_Loss_pu = [Pl_12 Pl_23 Pl_24 Pl_15 Pl_36 Pl_47 Pl_58 Pl_78 ];
+P_Flow_pu = [P12 P23 P24 P15 P36 P47 P58 P78 ];
+Q_Flow_pu = [Q12 Q23 Q24 Q15 Q36 Q47 Q58 Q78 ];
+
+Sbase = 100e6;
+P_Loss_W = Sbase*P_Loss_pu;
+P_Flow_W = Sbase*P_Flow_pu;
+Q_Flow_VAR = Sbase*Q_Flow_pu;
+
+Vbase1 = 132e3; Vbase2 =33e3;Vbase3 =11e3;
+V1 = V_comp(1)*Vbase1;
+V2 = V_comp(2)*Vbase2;V3 = V_comp(3)*Vbase2;V4 = V_comp(4)*Vbase2;
+V5 = V_comp(5)*Vbase1;V6 = V_comp(6)*Vbase3;V7 = V_comp(7)*Vbase3;V8 = V_comp(8)*Vbase3;
+Ibase1 = Vbase1^2/(sqrt(3)*Sbase);
+% Base current for each voltage level
+Ibase1 = Sbase / (sqrt(3) * Vbase1); % Base current for 132kV
+Ibase2 = Sbase / (sqrt(3) * Vbase2); % Base current for 33kV
+Ibase3 = Sbase / (sqrt(3) * Vbase3); % Base current for 11kV
+% Calculate currents in kA (convert from per-unit to kA)
+I12_kA = abs(I12) * Ibase2 / 1e3; % Current between Bus 1 and Bus 2
+I23_kA = abs(I23) * Ibase2 / 1e3; % Current between Bus 2 and Bus 3
+I24_kA = abs(I24) * Ibase2 / 1e3; % Current between Bus 2 and Bus 4
+I15_kA = abs(I15) * Ibase1 / 1e3; % Current between Bus 1 and Bus 5
+I36_kA = abs(I36) * Ibase3 / 1e3; % Current between Bus 3 and Bus 6
+I47_kA = abs(I47) * Ibase3 / 1e3; % Current between Bus 4 and Bus 7
+I78_kA = abs(I78) * Ibase3 / 1e3; % Current between Bus 7 and Bus 8
+I58_kA = abs(I58) * Ibase3 / 1e3; % Current between Bus 5 and Bus 8
+% Display currents in kA
+fprintf("Currents in kA:\n");
+fprintf("I12 = %.4f kA\n", I12_kA);
+fprintf("I23 = %.4f kA\n", I23_kA);
+fprintf("I24 = %.4f kA\n", I24_kA);
+fprintf("I15 = %.4f kA\n", I15_kA);
+fprintf("I36 = %.4f kA\n", I36_kA);
+fprintf("I47 = %.4f kA\n", I47_kA);
+fprintf("I78 = %.4f kA\n", I78_kA);
+fprintf("I58 = %.4f kA\n", I58_kA);
+
+% Display voltage in kV
+fprintf("Voltages in kA:\n");
+fprintf("V1 = %.4f < %.4f kV\n", abs(V1)/1e3, angle(V1)*180/pi );
+fprintf("V2 = %.4f < %.4f kV\n", abs(V2)/1e3, angle(V2)*180/pi );
+fprintf("V3 = %.4f < %.4f kV\n", abs(V3)/1e3, angle(V3)*180/pi );
+fprintf("V4 = %.4f < %.4f kV\n", abs(V4)/1e3, angle(V4)*180/pi );
+fprintf("V5 = %.4f < %.4f kV\n", abs(V5)/1e3, angle(V5)*180/pi );
+fprintf("V6 = %.4f < %.4f kV\n", abs(V6)/1e3, angle(V6)*180/pi );
+fprintf("V7 = %.4f < %.4f kV\n", abs(V7)/1e3, angle(V7)*180/pi );
+fprintf("V8 = %.4f < %.4f kV\n", abs(V8)/1e3, angle(V8)*180/pi );
+
+fprintf("Line Losses in kW:\n");
+fprintf("The line losses between bus 1 and bus 2 = %.4f kW\n", P_Loss_W(1)/1e3);
+fprintf("The line losses between bus 2 and bus 3 = %.4f kW\n", P_Loss_W(2)/1e3);
+fprintf("The line losses between bus 2 and bus 4 = %.4f kW\n", P_Loss_W(3)/1e3);
+fprintf("The line losses between bus 3 and bus 6 = %.4f kW\n", P_Loss_W(4)/1e3);
+fprintf("The line losses between bus 4 and bus 7 = %.4f kW\n", P_Loss_W(5)/1e3);
+fprintf("The line losses between bus 7 and bus 8 = %.4f kW\n", P_Loss_W(6)/1e3);
+fprintf("The line losses between bus 1 and bus 5 = %.4f kW\n", P_Loss_W(7)/1e3);
+fprintf("The line losses between bus 5 and bus 8 = %.4f kW\n", P_Loss_W(8)/1e3);
+
+fprintf("Line Power Flow Between the Buses in MW:\n");
+fprintf("The line reactive power flow between bus 1 and bus 2 = %.4f MW\n", P_Flow_W(1)/1e6);
+fprintf("The line reactive power flow between bus 2 and bus 3 = %.4f MW\n", P_Flow_W(2)/1e6);
+fprintf("The line reactive power flow between bus 2 and bus 4 = %.4f MW\n", P_Flow_W(3)/1e6);
+fprintf("The line reactive power flow between bus 3 and bus 6 = %.4f MW\n", P_Flow_W(4)/1e6);
+fprintf("The line reactive power flow between bus 4 and bus 7 = %.4f MW\n", P_Flow_W(5)/1e6);
+fprintf("The line reactive power flow between bus 7 and bus 8 = %.4f MW\n", P_Flow_W(6)/1e6);
+fprintf("The line reactive power flow between bus 1 and bus 5 = %.4f MW\n", P_Flow_W(7)/1e6);
+fprintf("The line reactive power flow between bus 5 and bus 8 = %.4f MW\n", P_Flow_W(8)/1e6);
+
+fprintf("Line Reactive Power Flow Between the Buses in MVAR:\n");
+fprintf("The line reactive power flow between bus 1 and bus 2 = %.4f MVAR\n", Q_Flow_VAR(1)/1e6);
+fprintf("The line reactive power flow between bus 2 and bus 3 = %.4f MVAR\n", Q_Flow_VAR(2)/1e6);
+fprintf("The line reactive power flow between bus 2 and bus 4 = %.4f MVAR\n", Q_Flow_VAR(3)/1e6);
+fprintf("The line reactive power flow between bus 3 and bus 6 = %.4f MVAR\n", Q_Flow_VAR(4)/1e6);
+fprintf("The line reactive power flow between bus 4 and bus 7 = %.4f MVAR\n", Q_Flow_VAR(5)/1e6);
+fprintf("The line reactive power flow between bus 7 and bus 8 = %.4f MVAR\n", Q_Flow_VAR(6)/1e6);
+fprintf("The line reactive power flow between bus 1 and bus 5 = %.4f MVAR\n", Q_Flow_VAR(7)/1e6);
+fprintf("The line reactive power flow between bus 5 and bus 8 = %.4f MVAR\n", Q_Flow_VAR(8)/1e6);
+
