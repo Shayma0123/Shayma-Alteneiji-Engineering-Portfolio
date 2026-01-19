@@ -32,9 +32,12 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
 <h3>💻 Simulation</h3>
 <ul>
     <li>
-      <strong>MATLAB Simulation — Throughput Analysis of Slotted and Pure ALOHA Multiple Access Protocols </strong><br>
+      <strong>hroughput Analysis of Slotted and Pure ALOHA Multiple Access Protocols </strong><br>
       <p>Analyzed system performance under fixed and dynamic retransmission probabilities.</p>
       <em>Tools:</em> MATLAB, Poisson Distribution, BEB Retransmission
+      <p>
+      🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Pure%20and%20Slotted%20ALOHA%20MAC%20Protocols%20MATLAB%20Simulations">View           Project Repository</a>
+      </p>
       <p>
         <div style="display:flex; justify-content:center;">
           <img src="Pure and Slotted ALOHA MAC Protocols MATLAB Simulations/Pure ALOHA Simulation Plot.png" width="350" style="margin-right:10px;">
@@ -42,9 +45,7 @@ Applications include <strong>Advanced Driver Assistance Systems (ADAS)</strong>.
         </div>
       </p>
     </li>
-<p>
-🔗 <a href="https://github.com/Shayma0123/Shayma-Alteneiji-Engineering-Portfolio/tree/main/Pure%20and%20Slotted%20ALOHA%20MAC%20Protocols%20MATLAB%20Simulations">View Project Repository</a>
-</p>
+
 
 ---
 
